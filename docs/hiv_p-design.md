@@ -3,21 +3,21 @@ PAHO HIV Prevention Toolkit - Documento de Diseño del Sistema
 
 # Toolkit de Prevención de VIH en DHIS2 para OPS - Documento de Diseño del Sistema
 
-## 1. Antecedentes y Propósito
+## Antecedentes y Propósito
 El Toolkit de Prevención de VIH en DHIS2 para OPS es un sistema de seguimiento de prevención de VIH basado en DHIS2 Tracker que permite rastrear los eventos de prevención que experimenta un individuo.
 
 Este toolkit se ha desarrollado con el propósito de agilizar la implementación de programas de prevención de VIH en países que carecen de un sistema informático de registro de actividades. Incluye un componente analítico configurado para calcular los indicadores clave de un programa de prevención. Se trata de una configuración mínima diseñada para facilitar el proceso de implementación y debe adaptarse a casos de uso específicos y contextos nacionales.
 
 El sistema se fundamenta en las directrices del "Marco de Monitoreo de los Servicios Relacionados con el VIH y las ITS para Grupos de Población Clave en América Latina y el Caribe" (OPS, 2019) y se desarrolla bajo la orientación del Departamento de VIH de OPS.
 
-## 2. Resumen del Diseño del Sistema
-### 2.1 Casos de Uso
+##  Resumen del Diseño del Sistema
+### Casos de Uso
 
 El uso típico de este toolkit es el seguimiento de servicios prestados a individuos dentro de poblaciones clave que están recibiendo servicios de prevención de VIH debido a su riesgo específico. Es posible realizar modificaciones para incluir otros grupos y combinarlo con otros servicios, como el seguimiento de casos de pacientes con VIH. El sistema se basa en el seguimiento de datos individuales a lo largo del tiempo, y los indicadores se calculan utilizando indicadores de programa que luego se agregan a los indicadores tradicionales en un conjunto de datos agregados.
 
 El toolkit está creado como una estructura mínima, y deberá pasar por un proceso de adaptación riguroso antes de poder pasar a producción en un país.
   
-###   2.2 Estructura del Programa
+###  Estructura del Programa
 
 El siguiente diagrama muestra la estructura del programa:
 
@@ -25,7 +25,7 @@ El siguiente diagrama muestra la estructura del programa:
 ![Diagrama de Flujo](resources/images/image12.png)
 
   
-## 2.2.1 Justificación de la Estructura del Programa
+#### Justificación de la Estructura del Programa
 
 La estructura del programa se ha diseñado de manera estratégica para garantizar la eficacia y la privacidad de los datos. Aquí se presenta la justificación clave:
 
@@ -354,7 +354,7 @@ ITS: Viruela del Simio
 
 Todos los elementos de datos utilizados llevan el prefijo HIVp y están incluídos en el grupo HIV prevention - Service provision
 
-## 4. Reglas de Validación / Reglas del Programa
+## Reglas de Validación / Reglas del Programa
 
   Se han configurado un set básico de reglas de negocio. La mayoría de las reglas son simplemente para ocultar o mostrar secciones en la etapa de visita, pero especial cuidado debe tomarse al modificar las reglas de la etapa de selección de población clave ya que estas corresponden a una algoritmo para determinar la población clave de un usuario. When more than one option can be selected, rules are in place to ensure that the same option is not selected more than once.
 
@@ -531,7 +531,7 @@ Todos los elementos de datos utilizados llevan el prefijo HIVp y están incluíd
 | cc2qrxDfFov | HIV_PREV - Hide condoms type female if not selected                                                                 | Hide condoms type female if not selected                                                                 |   |   |
 
 
-## 6. Grupos de Usuarios
+## Grupos de Usuarios
 
 - **Acceso a Datos de Prevención del VIH:** Permite visualizar paneles de control, pero no puede realizar cambios en los metadatos ni añadir nueva información.
 
@@ -541,7 +541,7 @@ Todos los elementos de datos utilizados llevan el prefijo HIVp y están incluíd
 
 El país encargado de la implementación debe garantizar que los usuarios tengan los derechos necesarios para ingresar datos en sus respectivas unidades organizativas, así como los derechos de búsqueda en todas las unidades que proporcionen servicios de prevención del VIH, para facilitar la movilidad entre instalaciones. Además, se deben configurar modificaciones y accesos adicionales de acuerdo a las necesidades locales.
 
-## 7. Análisis e Indicadores
+## Análisis e Indicadores
 
    Los indicadores para esta configuración están divididos en dos grupos: Indicadores de Prevención del VIH (UID lejvqF7k333) e Indicadores de Prestación de Servicios (UID qlQYalhb00s) y estan basados en Indicadores de programa. 
 
@@ -558,7 +558,7 @@ Registra las estimaciones de elegibilidad para PrEP y estado serológico de pobl
 Registra los servicios disponibles en los distintos centros de salud.
 
 
-### FIltros de población clave
+### Filtros de población clave
 
 Como se describe en la sección de la etapa de “Visitas”, hay reglas de programa que trasladan los valores de población clave a una sección oculta. Esto permite que todos los cálculos basados en población clave puedan realizarse. Los filtros que se utilizan son los que están en los siguientes indicadores. Para modificar estos filtros, se deberán modificar los elementos de datos con el sufijo “VISITA”.
 
@@ -571,7 +571,7 @@ Como se describe en la sección de la etapa de “Visitas”, hay reglas de prog
 
 
 
-## 8. Paneles de mando
+##  Paneles de mando
 
 El toolkit cuenta con un tablero de mando prediseñado, pudiéndose modificar según las necesidades de la implementación. El tablero está dividido en secciones temáticas:
 
@@ -626,7 +626,4 @@ Las secciones pueden traducirse fácilmente en etapas en caso de que diferentes 
 Cantidad reducida de reglas de programa y bien identificadas por la sección objetivo.
 
 Si una actividad específica no es relevante para el paquete de servicios de Prevención del VIH ofrecidos en su país, puede simplemente eliminar secciones enteras sin repercusiones en el resto del modelo de datos.
-
-.
-
 
