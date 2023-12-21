@@ -38,14 +38,14 @@ La estructura del programa se ha diseñado de manera estratégica para garantiza
 Esta estructura de programa permite una gestión eficiente de los datos, protege la privacidad de los individuos y ayuda a que se registren de manera exhaustiva todas las actividades relacionadas con la prevención de VIH sin recurrir a multiples etapas.
 
 
-# 2.3 Usuarios Previstos
+## Usuarios Previstos
 
 El toolkit considera usuarios de entrada de datos, acceso a análisis, visualizaciones y tableros, y administración de metadatos. Se prevee que los datos sean ingresados al nivel mas bajo posible, normalmente en un punto de atención, pero es entendido que en muchos casos, la entrada de datos será secundaria. 
 
 Los tableros están configurados a nivel nacional y subnacional. 
   
 
-#3. Configuración 
+## Configuración 
 
 El programa no cuenta con configuraciones específicas ya que es una propuesta mínima que deberá adaptarse a necesidades locales considerando las normativas de protección de datos y el uso del sistema. Se prevé que el programa tenga acceso limitado a los usuarios de la unidad organizativa, pero que se puedan buscar usuarios en otras unidades cuando sea necesario el acceso.
 
