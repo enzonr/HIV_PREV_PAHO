@@ -51,7 +51,7 @@ El programa no cuenta con configuraciones específicas ya que es una propuesta m
 
 A continuación describimos la configuración de atributos, etapas y elementos de datos del programa. Los nombres reflejados no son los que se muestran en la interfaz, sino los nombres de los elementos de datos utilizados en el backend.
 
-## 3.1 Inscripción
+## Inscripción
 Los siguientes atributos son parte de la inscripción. Todos deberán ser adaptados a las necesidades nacionales.
 
 | Buscable | Nombre (Español)                                | Nombre (Inglés)  | UiD               | Tipo de valor           | Set de opciones (si corresponde)   |
@@ -71,7 +71,7 @@ Los siguientes atributos son parte de la inscripción. Todos deberán ser adapta
 | NO       | Especifique otro tipo de documento             | Specify Other Type of Document | Ybj656vEDVT  | TEXT              |                                    |
 | NO       | Número de documento                            | Document Number  | QmI1CtwM8Pp       | TEXT                     |                                    |
 
-## 3.2 Etapa de identificación de población
+## Etapa de identificación de población
 
 En esta etapa se registran los datos básicos sobre el estado de población clave de la persona, basados en lo estipulado en el marco de monitoreo. Si hay un cambio en el estado de población clave, por ejemplo, si el paciente ya no está encarcelado, los datos registrados en esta etapa deberán editarse.
 
@@ -96,7 +96,7 @@ Esta etapa incluye reglas de programa preconfiguradas con un algoritmo para dete
 | Identidad de Género (HIVp_PAHO) | HIVp_PAHO - What is your gender identity? | MZVdlRUalzP | TEXT | MAN, WOMAN, TRANSGENDER_WOMAN, TRANSGENDER_MAN, OTHER, NO_ANSWER | FALSE |
 | Especifique otra autoidentificación (HIVp_PAHO) | HIVp_PAHO - Specify other autoidentification | yG3E2qgI7uI | TEXT | | FALSE |
 
-### 3.3 Visitas 
+###  Visitas 
 
 La sección de visitas captura todas las actividades que pueden ocurrir durante una visita de prevención. Se inicia con un cuestionario inicial y en base a las respuestas se sugieren actividades preventivas. Cada actividad se incluye dentro de una sección, y estas secciones se muestran u ocultan según sea necesario.
 
