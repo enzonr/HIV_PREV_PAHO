@@ -1,4 +1,4 @@
-# Release Note { #hiv-prev_paho-release-note }
+# Release Note { #hiv-prev-paho-release-note }
 
 ## 1.0.0
 
