@@ -9,10 +9,10 @@ Este toolkit se ha desarrollado con el propósito de agilizar la implementación
 
 # Contenidos
 
-** Configuración de tracker para entrada de datos
-** Configuración de indicadores y tableros
-** Documento de diseño de sistema
-** Guía de instalación
+* Configuración de tracker para entrada de datos
+* Configuración de indicadores y tableros
+* Documento de diseño de sistema
+* Guía de instalación
 
 
 
