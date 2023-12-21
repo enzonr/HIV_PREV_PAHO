@@ -22,7 +22,7 @@ El toolkit está creado como una estructura mínima, y deberá pasar por un proc
 El siguiente diagrama muestra la estructura del programa:
 
 
-
+![Diagrama de Flujo](resources/images/image12.png)
 
   
 ## 2.2.1 Justificación de la Estructura del Programa
@@ -111,19 +111,21 @@ Para poder contar correctamente algunos de los indicadores basados en población
 
 Dichos elementos de dato están marcados con el sufijo - VISIT STAGE en su nombre:
 
-
+![Visita](resources/images/image6.png)
 
 
 **Detalles de la Visita:**
 
 En la sección de Detalles de la visita, se podrá registrar de manera manual las tareas planteadas para la sesión. Por cada una de las actividades seleccionadas se abrirá una nueva sección con más información.
 
+![Visita](resources/images/image14.png)
 
 
 **Evaluación de Riesgo:**
 
 En esta sección se determina el tipo de riesgo al que potencialmente estaría expuesto el individuo.
 
+![Visita](resources/images/image13.png)
 
 
 | Nombre de formulario en español | NAME | Short Name | Code | Form Name | Option Set | UID |
@@ -139,8 +141,9 @@ En esta sección se determina el tipo de riesgo al que potencialmente estaría e
 **Condones y lubricantes:**
 Registra si condones o lubricantes fueron distribuídos durante la visita. Despliega la opcion de seleccionar la cantidad si la respuesta es “si”.
 
+![Visita](resources/images/image8.png)
 
-.
+
 | Nombre de formato en Español | Name | UID |
 |------------------------------|------|-----|
 | Condones Distribuidos | HIVp_PAHO - Condoms distributed | tZ1V7bbAkPv |
@@ -156,6 +159,7 @@ Registra si condones o lubricantes fueron distribuídos durante la visita. Despl
 
 Registra los detalles de la última prueba de VIH realizada. Esta sección contiene elementos de dato genéricos (Prueba de VIH (A1, A2, A2) que deben configurarse según el tipo de prueba disponible en el país.
 
+![Visita](resources/images/image2.png)
 
 
 | Nombre de formulario en Español | Nombre | Nombre Corto | Codigo | Nombre de formulario | UID |
@@ -184,6 +188,8 @@ Registra los detalles de la última prueba de VIH realizada. Esta sección conti
 **PrEP:**
 
 Información relacionada a la profilaxis pre exposición (PrEP), si se le ha entregado al cliente y si el cliente ha experimentado efectos adversos. Los efectos adversos están configurados con opciones genéricas (CONFIG_1, CONFIG_2, etc) y se deberán modificar acorde a las necesidades locales.
+
+![Visita](resources/images/image7.png)
 
 
 | Nombre de formulario en Español | Nombre | Nombre Corto | Codigo | Nombre de formulario | UID |
@@ -215,6 +221,7 @@ Información relacionada a la profilaxis pre exposición (PrEP), si se le ha ent
 
 En esta sección se registra si la persona recibió el profiláctico postexposición, y las circunstancias de la administración
 
+![Visita](resources/images/image1.png)
 
 
 | Nombre de formulario en Español | Nombre | Nombre Corto | Codigo | Nombre de formulario | UID |
@@ -232,12 +239,11 @@ En esta sección se registra si la persona recibió el profiláctico postexposic
 
 
 
-
-
-**STI:**
+**ITS:**
 
 *Información relacionada a enfermedades de transmisión sexual (ITSs)*
 
+![Visita](resources/images/image3.png)
 
 
 En esta sección se seleccionan varios procesos relacionados con las ITS, con lógica de ocultar y mostrar elementos según la necesidad del flujo de entrada de datos. En primera instancia:
@@ -258,7 +264,7 @@ ITS: Hepatitis B
 ITS: Hepatitis C
 ITS: Viruela del Simio
 
-
+![Visita](resources/images/image15.png)
 
 
 
@@ -571,26 +577,32 @@ El toolkit cuenta con un tablero de mando prediseñado, pudiéndose modificar se
 
 ### Disponibilidad de Servicios
 
+![Dashboard](resources/images/image5.png)
 
 
 ### Tablero de provisión de servicios
 
+![Dashboard](resources/images/image10.png)
 
 
 ### Primer Pilar: Test realizado a poblaciones clave
 
+![Dashboard](resources/images/image9.png)
 
 
 ### Segundo Pilar: Poblaciones clave vinculadas a servicios de prevención
 
+![Dashboard](resources/images/image9.png)
 
 
 ### Tercer Pilar: Población clave con seguimiento de servicio de prevención
 
+![Dashboard](resources/images/image4.png)
 
 
 ### Cuarto Pilar: Población clave que conoce su estado de VIH a los 12 meses
 
+![Dashboard](resources/images/image11.png)
 
 
 ## Consideraciones de Implementación y Adaptación Local
